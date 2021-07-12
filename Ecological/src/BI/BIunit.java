@@ -1,17 +1,25 @@
 package BI;
 
-public class BIunit{
-    String unitType;
+public class BIunit {
+
+    int unitType;
     int hasFood;
-    BIunit(String s){
-        unitType=s;
+
+    BIunit(int s) {
+        unitType = s;
     }
-    void giveFood(int i){
-        hasFood=i;
+
+    void giveFood(int i) {
+        hasFood = i;
     }
-    int eatFood(){
-        int tmp=hasFood;
-        hasFood=0;
-        return tmp;
+
+    public int getUnitType() {
+        return unitType;
     }
+
+    public int getHasFood() {
+        return hasFood;
+    }
+
+
 }
