@@ -1,0 +1,15 @@
+1.想法
+
+(1)Leetcode上有資料結構，要供應 .h 檔給他
+(2)輸出要有標準
+(3)例外偵測
+(4)指令分析
+(5)執行在資料夾
+
+2.注意
+
+(1)Clean code.
+(2)Don't God class.
+(3)desine patten.
+(4)if(sad) goto sleep.
+(5)Appropriate notes.

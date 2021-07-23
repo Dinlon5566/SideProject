@@ -1,0 +1,26 @@
+軟體需求說明
+
+1.目的
+
+  讓在 Leetcode 上寫出的 CPP Solution 可以用自己的測資大量運行並比對資料庫偵錯，用 shell 指令進行操作。
+
+2.說明
+
+使用方式
+
+  LeetcodeTestHelper [-?] [-s] [-n] [-t filename] [-x] Solution_file [Input_database [Output_database]]
+
+選項
+
+  -?   顯示說明
+  -s   發現差異停止
+  -n   只回傳是否正確
+  -t   將結果輸出至 filename
+  -x   不顯示回應
+
+說明
+
+   不添加任何檔案及參數 : 顯示說明。
+   只有 Solution_file : 執行該檔案。
+   有 Solution_file & Input_database : 顯示檔案輸出。
+   有 Solution_file & Input_database & Output_database : 比對所有輸出與資料庫結果，顯示差異測資或錯誤情況。
